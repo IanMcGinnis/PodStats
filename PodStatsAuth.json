@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "podstats-431904",
+  "private_key_id": "456c817964e08b0cd0d036d9342729fba03d2d2d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8ygk8Egt7B2zk\ncThJC84PIU0el0H4Ce2Qn39t6+dEhVdbFlkFTi8xpyK72TwbnVxCj8dEqnsHbSnS\nIFyambKJOowsyW/51+Q/TJS/QmNtnoPhVOCYj0ttwF6DZeBXd1TSDugl6al9Cg78\nvQC4KdPNqo1H1SBnvHnE/NUTGHjYzUJlhQOlX25O9bBtiaHZ6zfwElZYymDghj/Y\nLAzJIrhUYMVLoy9uwiiC2cEZuEctK+jJMWp7n7xRkWYLBULzqozxrBnMdX6cNYQH\nfRBfFVox/kvah7uD7lqCJJXiFdZfBlM0HT1pC2C325I5NAiuKCW+0LCy9biBpIsu\nz7LxdFOnAgMBAAECggEAAZoFMglFJ6oMdnOvco8zFFXH/bZyzNPovA1eW2Rg9efb\nsd4iqzTamaU9WjKhm+pd2gK2QhLgMFPwwuObZYRgS2G/xrF+zbPTL+ZKbMT3avqp\nS8QYk7LDhQ7Yvmyi1psgkRenSIsO8Qygy+wekXFpZplH0ZAxUi/7KHysohjXDZ/M\ncOJV3taSAo+U7EmMPbCASlu/5RtJfW7wtZG85E7y+aNO2CCiEI2PforDCs+tq9Kb\nuPS2sgdcvXu+L/UwL4esL/Wda3kmN1ig+cVRH1qYlygWGtI3grUyYJcvI9GUAij5\nc7vnudVq9YqVGu0srNynKzuKAs5Wxf1wTRkajAkQ4QKBgQDjsaxnN5SGxEsM8Qw7\nUf6qLaPQ/CN8r6Brlw30aH5twW3b2vXGKnA5d7T11gQk0nvKLFzrKyGY/LA7vFk5\nGjvvkn8M0/8g8/9wKfiW6KY6+faNDGO8VxIo4J6Jza33gY+50w4tegUfQOS8Hl88\n0bI3852Zl4x40THqrXQpEK8OWwKBgQDUQjj0SpjJjZ378xB+0xfX9CPQen8FAqgQ\ny/ZJKXaT+QjKZAalf22Js4szhMDN3VJmo/8Ef24hGbjMhF6estIyuJc8WruS1slE\nfLEvfBa+pGFov0I7hsdvbTyAkVAB+np2D2XfP4inPSkvp5gz5uZCkNv04FCUQdi1\ncCKbxVKppQKBgEnCTqUJHjYh9GX22A2HXEXojv6uDxjfE8qGnmCkUQBg/qOP5LoT\nGVOkcZyJfcIn5S3y/Q65ZCLZCIXxV73lv7C19i5DpowYPpEpJ3xLVT4Zp0K91rk2\nQ422ZeUiGc7py5NYyWj19B7RuMcv144uJ9t0MYOF0l149wCcu9ppqyutAoGBANA9\nR/MjXFIhBeWwyXYjUzki5CAcjZE00f3onG+apiL2J5GoIH0tTyHRa7fXffB6OeVI\n72BSRJFk0tCS7OF1PpNUVct4mJ2u6zatvod/jjDqxEYnnasYx4CiAsF/zqaiPpKk\n+KTViBPLBSUjn0cMOMsFo0XS7DsHfrxCjzGTnU2hAoGBAJr9XPmRPHCYEIRMcSCZ\nLOo3axrJ55hYPa+I+dtlh6YbcXD5HGU6fUjorQOAPdC99W4yQdUxvP9ijm2kmGnC\nOSMBc43M2LZ7XWnWjjN5Nhw+9/gUbwaJPQ/8F8wxqywJl8nwTacoxptWZa4yvDwE\n3+FrJ11TzkEPIxNIw02QmpJP\n-----END PRIVATE KEY-----\n",
+  "client_email": "podstats@podstats-431904.iam.gserviceaccount.com",
+  "client_id": "116908583300688540266",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/podstats%40podstats-431904.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
