@@ -1,2 +1,4 @@
 /.env
 PodStatsAuth.json
+active_stats.json
+channels.json
