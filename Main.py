@@ -330,7 +330,7 @@ async def addplayers(interaction: discord.Interaction):
             players = await bot.wait_for('message', check=check, timeout=90.0)
             players = players.content
             if players.lower() == 'cancel':
-                await interaction.response.edit_message('Canceling . . .')
+                await interaction.followup.send('Canceling . . .')
             else:
                 player = players.split(', ') if ', ' in players else players.split(',')
 
@@ -365,7 +365,7 @@ async def addcommanders(interaction: discord.Interaction):
             commanders = await bot.wait_for('message', check=check, timeout=90.0)
             commanders = commanders.content
             if commanders.lower() == 'cancel':
-                await interaction.response.edit_message('Canceling . . .')
+                await interaction.followup.send('Canceling . . .')
             else:
                 commander = commanders.split(' | ') if ' | ' in commanders else commanders.split('|')
 
@@ -381,7 +381,7 @@ async def addcommanders(interaction: discord.Interaction):
 
                 print(f'Added {len(commander)} commander(s) to spreadsheet {interaction.guild.name}')
 
-                await interaction.response.edit_message(f'Added commander(s) {", ".join(commander) if len(commander) > 1 else "".join(commander)} to spreadsheet')
+                await interaction.followup.send(f'Added commander(s) {", ".join(commander) if len(commander) > 1 else "".join(commander)} to spreadsheet')
         except asyncio.TimeoutError:
             await interaction.followup.send('You took too long to reply!')
 
