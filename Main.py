@@ -347,7 +347,7 @@ async def addplayers(interaction: discord.Interaction):
 
                 print(f'Added {len(player)} player(s) to spreadsheet {interaction.guild.name}')
 
-                await interaction.followup.send(f'Added commander(s) {", ".join(player) if len(player) > 1 else "".join(player)} to spreadsheet')
+                await interaction.followup.send(f'Added player(s) {", ".join(player) if len(player) > 1 else "".join(player)} to spreadsheet')
 
         except asyncio.TimeoutError:
             await interaction.followup.send('You took too long to reply!')
